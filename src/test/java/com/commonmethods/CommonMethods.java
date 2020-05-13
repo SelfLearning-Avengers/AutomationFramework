@@ -29,5 +29,12 @@ public class CommonMethods {
 	{
 		extent.flush();
 	}
+	
 
-}
+	
+
+
+	}
+
+
+

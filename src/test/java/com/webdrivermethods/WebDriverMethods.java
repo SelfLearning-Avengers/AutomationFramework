@@ -27,4 +27,18 @@ public class WebDriverMethods {
 		element.sendKeys(value);
 	}
 
+	
+	public void reclick(WebElement element) {
+		try {
+			
+			waitfor.until(ExpectedConditions.visibilityOf(element));
+			waitfor.until(ExpectedConditions.elementToBeClickable(element));
+			element.click();
+			
+		} catch (Exception e) {
+
+			System.out.println(e.getMessage());
+		}
+
+	}
 }

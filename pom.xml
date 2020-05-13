@@ -52,13 +52,7 @@
 			<artifactId>mail</artifactId>
 			<version>1.4.3</version>
 		</dependency>
-		<dependency>
-			<groupId>java2s.com</groupId>
-			<artifactId>ojdbc</artifactId>
-			<version>14</version>
-			<systemPath>C:\Users\D E L L\Desktop\MediaCompass6.3\src\test\resources\OJDBC\ojdbc14.jar</systemPath>
-			<scope>system</scope>
-		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
 		<dependency>
 			<groupId>net.sourceforge.jexcelapi</groupId>
