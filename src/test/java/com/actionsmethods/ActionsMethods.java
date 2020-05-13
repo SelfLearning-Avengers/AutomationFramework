@@ -26,4 +26,11 @@ public class ActionsMethods {
 		waitfor.until(ExpectedConditions.elementToBeClickable(element));
 		actions.sendKeys(value).build().perform();
 	}
+	public void actionMoveToElwmwnt(WebElement element,WebElement elementc) {
+		waitfor.until(ExpectedConditions.visibilityOf(element));
+		waitfor.until(ExpectedConditions.elementToBeClickable(element));
+		actions.moveToElement(element).build().perform();
+		waitfor.until(ExpectedConditions.visibilityOf(elementc));
+		elementc.click();
+	}
 }
