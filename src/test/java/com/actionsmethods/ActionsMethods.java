@@ -26,7 +26,6 @@ public class ActionsMethods {
 		waitfor.until(ExpectedConditions.elementToBeClickable(element));
 		actions.sendKeys(value).build().perform();
 	}
-<<<<<<< Updated upstream
 	public void actionMoveToElwmwnt(WebElement element,WebElement elementc) {
 		waitfor.until(ExpectedConditions.visibilityOf(element));
 		waitfor.until(ExpectedConditions.elementToBeClickable(element));
@@ -34,7 +33,6 @@ public class ActionsMethods {
 		waitfor.until(ExpectedConditions.visibilityOf(elementc));
 		elementc.click();
 	}
-=======
 
 	public void actionDoubleClick(WebElement element) {
 		waitfor.until(ExpectedConditions.visibilityOf(element));
@@ -48,5 +46,4 @@ public class ActionsMethods {
 		actions.contextClick(element).perform();
 	}
 
->>>>>>> Stashed changes
 }
